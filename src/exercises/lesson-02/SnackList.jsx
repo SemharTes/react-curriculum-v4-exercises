@@ -13,7 +13,6 @@ export default function SnackList() {
     <div>
       {rankedsnacks.map((snack) => (
         <div key={snack.name}>
-          {' '}
           #{snack.rank} {snack.name}
         </div>
       ))}
